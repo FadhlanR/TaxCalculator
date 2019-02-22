@@ -26,15 +26,16 @@
 * **Method:**
   `POST`
   
-*  **URL Params**
-    all param is required
-    ```json
-    {
+*  **Data Params**
+   * **Header:** `{ Content-Type : "application/json" }` <br />
+     **Body:** 
+     all param is required
+     ```json
+     {
 	    "name": "Fadhlan Ridhwanallah",
 	    "handphone": "089658825175",
 	    "password": "password"
-    }
-    ```
+     }``
 
 * **Success Response:**
   * **Code:** 200 <br />
@@ -55,12 +56,14 @@
   `POST`
   
 *  **Data Params**
-    all param is required
-    ```json
-    {
+    * **Header:** `{ Content-Type : "application/json" }` <br />
+      **Body:**
+      all param is required
+      ```json
+      {
 	    "handphone": "089658825175",
 	    "password": "password"
-    }
+      }```
 
 * **Success Response:**
   * **Code:** 200 <br />
@@ -70,7 +73,7 @@
         "user_id": "d7ef0752-367c-11e9-a0bc-0242ac150003",
         "name": "Fadhlan Ridhwanallah",
         "handphone": "089658825175"
-    }
+    }```
  
 * **Error Response:**
   * **Code:** 404 <br />
@@ -87,13 +90,15 @@
   `POST`
   
 *  **Data Params**
-    all param is required
-    ```json
-    {
+   * **Header:** `{ Content-Type : "application/json" }` <br />
+     **Body:**
+     all param is required
+     ```json
+     {
 	    "tax_code": 3,
 	    "name": "Movie",
 	    "price": "100"
-    }
+     }
 
 * **Success Response:**
   * **Code:** 200 <br />
@@ -125,6 +130,7 @@
   `GET`
   
 *  **Data Params**
+   * **Header:** `{ Content-Type : "application/json" }` <br />
 
 * **Success Response:**
   * **Code:** 200 <br />
