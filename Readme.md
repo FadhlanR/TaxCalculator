@@ -1,5 +1,8 @@
 **Tax Calculator API**
 ----
+  Database Design:
+    ![alt text](https://github.com/FadhlanR/TaxCalculator/blob/master/database.png)
+
   For using this api, please follow this step:
   1. You have to clone this repo first.
   2. Start server with docker command "docker-compose up".
@@ -37,7 +40,7 @@
   * **Code:** 200 <br />
     **Content:** 
     ```json
-        {}```
+        {}
  
 * **Error Response:**
   * **Code:** 404 <br />
