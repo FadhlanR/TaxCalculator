@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  django:
+    container_name: django_server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: docker_django
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/var/www/myproject
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+  db:
+    container_name: mariadb
+    image: bitnami/mariadb:10.1.38
+    volumes:
+      - .:/var/lib/mysql
+      - ./database.sql:/docker-entrypoint-initdb.d/database.sql
+    environment:
+      MARIADB_ROOT_PASSWORD: password
+      MARIADB_DATABASE: tax_db

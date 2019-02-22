@@ -1,0 +1,9 @@
+class ParamHelper(object):
+    
+    @staticmethod
+    def isBlank(param, message):
+        assert(param != None and param != ""), message
+    
+    @staticmethod
+    def isNull(param, message):
+        assert(param != None), message
