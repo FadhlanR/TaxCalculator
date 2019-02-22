@@ -58,7 +58,6 @@
 	    "handphone": "089658825175",
 	    "password": "password"
     }
-    ```
 
 * **Success Response:**
   * **Code:** 200 <br />
@@ -68,7 +67,7 @@
         "user_id": "d7ef0752-367c-11e9-a0bc-0242ac150003",
         "name": "Fadhlan Ridhwanallah",
         "handphone": "089658825175"
-    }```
+    }
  
 * **Error Response:**
   * **Code:** 404 <br />
@@ -92,7 +91,6 @@
 	    "name": "Movie",
 	    "price": "100"
     }
-    ```
 
 * **Success Response:**
   * **Code:** 200 <br />
@@ -107,7 +105,7 @@
         "price": 100,
         "tax": 0,
         "amount": 100
-    }```
+    }
  
 * **Error Response:**
   * **Code:** 404 <br />
