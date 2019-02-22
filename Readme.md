@@ -35,7 +35,7 @@
 	    "name": "Fadhlan Ridhwanallah",
 	    "handphone": "089658825175",
 	    "password": "password"
-     }``
+     }
 
 * **Success Response:**
   * **Code:** 200 <br />
@@ -63,7 +63,7 @@
       {
 	    "handphone": "089658825175",
 	    "password": "password"
-      }```
+      }
 
 * **Success Response:**
   * **Code:** 200 <br />
@@ -73,7 +73,7 @@
         "user_id": "d7ef0752-367c-11e9-a0bc-0242ac150003",
         "name": "Fadhlan Ridhwanallah",
         "handphone": "089658825175"
-    }```
+    }
  
 * **Error Response:**
   * **Code:** 404 <br />
