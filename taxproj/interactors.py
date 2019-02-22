@@ -1,3 +1,6 @@
+'''Author: Fadhlan Ridhwanallah
+   Date: 22 February 2019'''
+   
 from abc import ABC, abstractmethod
 from .utils import ParamHelper
 from django.utils import timezone

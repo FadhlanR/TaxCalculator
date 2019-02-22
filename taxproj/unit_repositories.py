@@ -1,3 +1,6 @@
+'''Author: Fadhlan Ridhwanallah
+   Date: 22 February 2019'''
+   
 class UserRepo(object):
 
     def __init__(self, db_repo):

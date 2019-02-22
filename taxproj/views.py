@@ -1,3 +1,6 @@
+'''Author: Fadhlan Ridhwanallah
+   Date: 22 February 2019'''
+
 import json
 
 from django.http import HttpResponse
