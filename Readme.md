@@ -1,6 +1,6 @@
 **Tax Calculator API**
 ----
-  Database Design:
+  Database Design: <br/>
     ![alt text](https://github.com/FadhlanR/TaxCalculator/blob/master/database.png)
 
   For using this api, please follow this step:
